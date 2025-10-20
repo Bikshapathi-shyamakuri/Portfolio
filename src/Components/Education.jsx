@@ -15,20 +15,9 @@ const Education = () => {
       icon: GraduationCap,
       color: 'from-blue-400 to-purple-600'
     },
+   
     {
       id: 2,
-      type: 'certification',
-      title: 'AWS Certified Solutions Architect',
-      institution: 'Amazon Web Services',
-      location: 'Online',
-      period: '2023',
-      description: 'Professional level certification for cloud architecture and deployment',
-      grade: 'Associate Level',
-      icon: Award,
-      color: 'from-orange-400 to-red-500'
-    },
-    {
-      id: 3,
       type: 'bootcamp',
       title: 'Full Stack Web Development',
       institution: 'Jspiders',
@@ -40,7 +29,7 @@ const Education = () => {
       color: 'from-green-400 to-blue-500'
     },
     {
-      id: 4,
+      id: 3,
       type: 'certification',
       title: 'Google UX Design Professional Certificate',
       institution: 'Google Career Certificates',
@@ -149,5 +138,6 @@ const Education = () => {
     </div>
   );
 };
+
 
 export default Education;
