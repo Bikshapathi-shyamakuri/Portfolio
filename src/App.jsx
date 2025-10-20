@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import About from './Components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Education from './components/Education';
-import Contact from './components/Contact';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
+import Education from './Components/Education';
+import Contact from './Components/Contact';
 // import Navbar from './Components/Navbar';
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 import './styles/animations.css';
 
 function App() {
